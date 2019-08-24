@@ -86,7 +86,7 @@ public class CuentaCorriente {
     }
 
     public String consultarCuenta() {
-        return "Nombre y apellidos de la cuenta: " + getNombre() + getApellidos() + "\n" +
+        return "Nombre y apellidos de la cuenta: " + getNombre() + " " + getApellidos() + "\n" +
                 "Dirección: " + getDireccion() + "\n" +
                 "Teléfono: " + getTelefono() + "\n" +
                 "Dni: " + getDni().getDni() + "\n" +

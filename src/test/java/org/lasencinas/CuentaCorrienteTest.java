@@ -35,13 +35,18 @@ public class CuentaCorrienteTest {
     }
 
     @Test
-    public void saldoNegativoTrue() {
+    public void saldoNegativoTrueTest() {
         cuentaCorriente.retirarDinero(2000);
         assertTrue(cuentaCorriente.saldoNegativo());
     }
 
     @Test
-    public void saldoNegativoFalse() {
+    public void saldoNegativoFalseTest() {
         assertFalse(cuentaCorriente.saldoNegativo());
+    }
+
+    @Test
+    public void consultarCuentaTest() {
+        System.out.println(cuentaCorriente.consultarCuenta());
     }
 }
